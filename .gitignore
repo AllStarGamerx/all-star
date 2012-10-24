@@ -1,6 +1,2 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
+git clone https://github.com/user/repo.git
+# Clone our repo
