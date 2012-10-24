@@ -1,2 +1,16 @@
-git clone https://github.com/user/repo.git
-# Clone our repo
+$ cd repo
+
+$ git checkout --orphan gh-pages
+# Creates our branch, without any parents (it's an orphan!)
+
+# Switched to a new branch 'gh-pages'
+
+git rm -rf .
+# Remove all files from the old working tree
+
+# rm '.gitignore'
+
+$ echo "Stuff" > index.html
+$ git add .
+$ git commit -a -m "First pages commit"
+$ git push origin gh-pages
